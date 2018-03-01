@@ -1,0 +1,112 @@
+body {
+  background-color: #ffec21;
+}
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  background-color: #ffec21;
+}
+header h1 {
+  font-family: 'Rock Salt', cursive;
+  color: #e22838;
+  text-shadow: 3px 3px #000;
+  text-align: center;
+}
+main {
+  margin-bottom: 20px;
+}
+main h2 {
+  font-family: 'Rock Salt', cursive;
+  color: #e22838;
+  text-shadow: 1px 1px #000;
+  margin-left: 20px;
+}
+main .list-group {
+  background-color: #f2eda4;
+}
+main .list-group li {
+  letter-spacing: 1px;
+  border: 0;
+  border-left: 10px solid #5b1c0d;
+  border-right: 10px solid #5b1c0d;
+}
+main .list-group li:last-child {
+  border-bottom: 10px solid #5b1c0d;
+}
+main .list-group li:first-child {
+  border-top: 10px solid #5b1c0d;
+}
+main .input-group {
+  margin-top: 20px;
+}
+main input {
+  margin: 0 auto;
+  width: 100%;
+}
+main .list-group-item {
+  background-color: #ffec21;
+  font-size: 30px;
+  font-family: 'Neucha', cursive;
+}
+main .btn {
+  color: #000;
+  font-family: 'Rock Salt';
+  font-size: 20px;
+  background-color: #e22838;
+  margin-left: 3px;
+}
+main .btn-block {
+  margin-top: 5px;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Rock Salt';
+  font-size: 20px;
+  background-color: #e22838;
+}
+main .btn:focus {
+  border: none;
+}
+main .fa-circle {
+  font-size: 10px;
+  vertical-align: middle;
+}
+main li button {
+  float: right;
+}
+main .donebtn {
+  background-color: #2fbc16;
+}
+main .remove {
+  background-color: #e22838;
+}
+main .moveUp,
+main .moveDown {
+  background-color: #ffec21;
+}
+main .back {
+  background-color: #687aff;
+}
+main ul.todo,
+main ul.done {
+  background-color: #063510;
+  color: #fff;
+}
+main li.list-group-item {
+  background-color: #063510;
+}
+main .btn:hover {
+  background-color: #f26571;
+}
+main .donebtn:hover {
+  background-color: #52cc3d;
+}
+main .moveUp:hover {
+  background-color: #fcef62 ;
+}
+main .moveDown:hover {
+  background-color: #fcef62 ;
+}
+main .back:hover {
+  background-color: #9ea9ff;
+}

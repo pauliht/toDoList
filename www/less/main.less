@@ -1,0 +1,118 @@
+main{
+
+	margin-bottom: 20px;
+
+	h2{
+		font-family: 'Rock Salt', cursive;
+		color: @tc;
+		text-shadow: 1px 1px #000;
+		// font-family: arial;
+		margin-left: 20px;
+	}
+
+	.list-group {
+		background-color: #f2eda4;
+
+		li{
+			letter-spacing: 1px;
+			border: 0;
+			border-left: 10px solid @brown;
+			border-right: 10px solid @brown;
+				&:last-child{
+		 			border-bottom: 10px solid @brown;
+			 	}
+				&:first-child{
+					border-top: 10px solid @brown;
+				}
+			}
+		}
+
+	.input-group	{
+		margin-top: 20px;
+	}
+
+	input{
+		margin: 0 auto;
+    width: 100%;
+	}
+
+	.list-group-item{
+		background-color: @bg;
+		font-size: 30px;
+		font-family: 'Neucha', cursive;
+		}
+
+	.btn{
+		color:#000;
+		font-family: 'Rock Salt';
+		font-size: 20px;
+		background-color: @tc;
+		margin-left: 3px;
+	}
+
+	.btn-block{
+		margin-top: 5px;
+		color:#000;
+		font-weight: bold;
+		font-family: 'Rock Salt';
+		font-size: 20px;
+		background-color: @tc;
+	}
+
+	.btn:focus{
+		border: none;
+	}
+
+	.fa-circle{
+		font-size: 10px;
+		vertical-align: middle;
+	}
+
+	li button{
+		float:right;
+	}
+
+	.donebtn{
+		background-color: #2fbc16;
+	}
+
+	.remove{
+		background-color:@tc;
+	}
+
+	.moveUp, .moveDown{
+		background-color: @bg;
+	}
+
+	.back{
+		background-color: #687aff;
+	}
+
+	ul.todo, ul.done{
+		background-color:@listbg;
+		color: #fff;
+
+	}
+	li.list-group-item{
+		background-color: @listbg;
+	}
+
+	.btn:hover{
+			background-color: #f26571;
+	}
+
+	.donebtn:hover{
+		background-color: #52cc3d;
+	}
+
+	.moveUp:hover{
+		background-color: #fcef62 ;
+	}
+
+	.moveDown:hover{
+		background-color: #fcef62 ;
+	}
+	.back:hover{
+		background-color: #9ea9ff;
+	}
+}

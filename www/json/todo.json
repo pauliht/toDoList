@@ -1,0 +1,20 @@
+{
+  "stuff": {
+    "className": ".list",
+    "activities": [
+      {
+        "text": "d",
+        "⚙": "Activity"
+      },
+      {
+        "text": "Buy donuts",
+        "⚙": "Activity"
+      },
+      {
+        "text": "b",
+        "⚙": "Activity"
+      }
+    ],
+    "⚙": "List"
+  }
+}
